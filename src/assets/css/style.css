@@ -1,7 +1,9 @@
+
 .hero-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  max-width: 1400px;
+  width: 80%;
 }
 
 .hero-left-section{
