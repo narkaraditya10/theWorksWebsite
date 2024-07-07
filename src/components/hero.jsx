@@ -6,25 +6,26 @@ import Circle from "../assets/shapes/circle";
 function Hero() {
   return (
     <>
-    <div className="h-screen flex justify-center items-center">
-    <div className="hero-container">
-        <div className="hero-left-section">
-          <h1 className="">Creative and Professional</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,{" "}
+      <div className="h-screen w-full flex justify-center items-center overflow-hidden">
+        <div className="hero-container">
+          <div className="hero-left-section">
+            <h1 className=" text-[34px] md:text-[56px] font-extrabold leading-[30px] md:leading-[56px] uppercase z-10 relative" >
+             <Circle/> Creative <br /> and Professional
+            </h1>
+            <p className="text-[18px] font-medium left-5 text-[#3f3f3f]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,{" "}
             </p>
-            <button>Contact us</button>
-          <Donut2/>
-          <Circle/>
-        </div>
-        <div className="hero-right-section">
-          <Donut />
+            <button className="px-4 py-2 w-fit border-[2px] border-[#000] rounded-md text-[20px] font-medium ">Contact us</button>
+            <Donut2 />
+            
+          </div>
+          <div className="hero-right-section">
+            <Donut />
+          </div>
         </div>
       </div>
-    </div>
-      
     </>
   );
 }

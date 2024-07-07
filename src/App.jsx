@@ -1,6 +1,7 @@
 import "./App.css";
 import "./assets/css/style.css";
 import About from "./components/about";
+import Experts from "./components/experts";
 import Hero from "./components/hero";
 import Service from "./components/service";
 import Slideshow from "./components/slideshow";
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Slideshow />
       <Service /> 
+      <Experts/>
     </>
   );
 }
