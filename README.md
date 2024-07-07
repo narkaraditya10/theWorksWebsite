@@ -16,7 +16,7 @@ Make sure you have the following software installed on your machine:
 Clone the project repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/narkaraditya10/theWorksWebsite.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -24,7 +24,7 @@ git clone https://github.com/your-username/your-repo-name.git
 Navigate to the directory where the repository was cloned:
 
 ```bash
-cd your-repo-name
+cd theWorksWebsite
 ```
 
 ### 3. Install Dependencies
